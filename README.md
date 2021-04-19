@@ -7,8 +7,6 @@ This package is intended for **educational purposes only** and is not suitable f
 - Clone the repository;
 - Run `stack build` inside of the root directory.
 
-The package exposes a couple of functions which may be useful for demonstrating Lamport signatures.
-
 ## Signature Creation / Message Validation
 ```
 λ> -- generate a key pair

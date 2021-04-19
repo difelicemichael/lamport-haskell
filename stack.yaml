@@ -1,0 +1,5 @@
+resolver:
+  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/17/8.yaml
+
+extra-deps:
+- bitvec-1.1.1.0@sha256:14d4aaa8724553ab60749dc486c5e04d3038b24383d53a2b2c766b1fa85d41cc,4224

@@ -1,7 +1,8 @@
 cabal-version:       >=1.10
 name:                Lamport
 version:             0.1.1.0
-license:             BSD3
+license:             MIT
+description:         A naive implementation of the Lamport one-time signature scheme written in Haskell.
 license-file:        LICENSE
 author:              Michael Di Felice
 maintainer:          difelice.michael@gmail.com

@@ -5,7 +5,7 @@ This package is intended for **educational purposes only** and is not suitable f
 
 ## Getting Started
 - Clone the repository;
-- Run `stack build` inside of the parent directory.
+- Run `stack build` inside of the root directory.
 
 The package exposes a couple of functions which may be useful for demonstrating Lamport signatures.
 

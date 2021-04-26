@@ -4,10 +4,13 @@ A naive implementation of the [Lamport one-time signature scheme](https://en.wik
 This package is intended for **educational purposes only** and is not suitable for production / commercial use.
 
 ## Getting Started
-- Clone the repository;
+- Get and install [https://docs.haskellstack.org/en/stable/install_and_upgrade/](stack);
+- `git clone https://github.com/difelicemichael/lamport-haskell.git`;
+- `cd lamport-haskell`;
 - Run `stack build` inside of the root directory.
 
 ## Signature Creation / Message Validation
+- Run `stack ghci`, then -
 ```
 λ> -- generate a key pair
 λ> key <- Lamport.generateKey

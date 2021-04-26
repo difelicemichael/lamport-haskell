@@ -4,7 +4,7 @@ A naive implementation of the [Lamport one-time signature scheme](https://en.wik
 This package is intended for **educational purposes only** and is not suitable for production / commercial use.
 
 ## Getting Started
-- Get and install [https://docs.haskellstack.org/en/stable/install_and_upgrade/](stack);
+- Get and install [stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/);
 - `git clone https://github.com/difelicemichael/lamport-haskell.git`;
 - `cd lamport-haskell`;
 - Run `stack build` inside of the root directory.

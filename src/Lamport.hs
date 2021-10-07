@@ -59,10 +59,11 @@ sign privs message =
   where bits = hashB message
         keys = V.fromList privs
 
-{-| Hash the message, select single private key elements
-from the pair provided, hash each element in the signature,
-and ensure that the hash of each selected private key
-element matches the correct public key element available. -}
+{-| Hash the message, select single public key elements
+from the pairs provided, hash each private key element 
+in the signature, and ensure that the hash of each selected 
+public key element matches the correct public key element 
+available. -}
 verify :: [HashPair]
        -> String
        -> [BS.ByteString]

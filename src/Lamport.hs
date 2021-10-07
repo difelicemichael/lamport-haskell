@@ -49,8 +49,14 @@ generateKey = do
       r1 <- R.random 32
       return $ HashPair (encode r0) (encode r1)
 
-{-| Hash the message and map the bits to a
-selection of ByteStrings from the KeyPair provided. -}
+{-| Hash the message, and map the individual bits to
+a selection of one of the ByteString's from the provided
+[HashPair] (which is conventionally the private key).
+
+The resulting [BS.ByteString] is a subset of the provided
+[HashPair], where each element has been mapped to one of
+the elements of the HashPair, depending on the individual
+bit at each element index. -}
 sign :: [HashPair]
      -> String
      -> [BS.ByteString]
